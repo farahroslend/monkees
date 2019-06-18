@@ -52,9 +52,9 @@ body {
 
         height: 100vh;
         width: 100vw;
-        background: url('../images/monkees-iphone.jpg') no-repeat left center fixed;
+        background: url('../images/monkees4.jpg') no-repeat left center fixed;
         background-position-y: 56px;
-        background-position-x: -170px;
+        background-position-x: -213px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -67,7 +67,6 @@ body {
     .jumbotron {
         background-color: transparent;
 
-
     }
 
     .jumbotron h1 {
@@ -77,15 +76,32 @@ body {
         color: white;
     }
 
+    .live-container {
+
+        height: 100vh;
+        width: 100vw;
+        background: url('../images/monkees_green.jpg') no-repeat left center fixed;
+        background-position-y: 0px;
+        background-position-x: 0px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
 }
 
 @media (min-width: 500px) and (max-width: 1199px) {
     .callout-container {
         height: 100vh;
         width: 100vw;
-        background: url('../images/monkees-ipad.jpg') no-repeat left center fixed;
+        background: url('../images/monkees4.jpg') no-repeat left center fixed;
         background-position-y: 56px;
-        background-position-x: -170px;
+        background-position-x: -305px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -106,6 +122,23 @@ body {
         font-weight: bold;
         margin-bottom: 10px;
         color: white;
+    }
+
+    .live-container {
+
+        height: 100vh;
+        width: 100vw;
+        background: url('../images/monkees_green.jpg') no-repeat left center fixed;
+        background-position-y: 0px;
+        background-position-x: 0px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -149,5 +182,39 @@ body {
         font-weight: bold;
         margin-bottom: 10px;
         color: white;
+    }
+
+    .live-container {
+
+        height: 100vh;
+        width: 100vw;
+        background: url('../images/monkees_green.jpg') no-repeat center center fixed;
+        background-position-y: 30px;
+        background-position-x: 0px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contact-container {
+
+        height: 100vh;
+        width: 100vw;
+        background: url('../images/contactus.png') no-repeat center center fixed;
+        background-position-y: -300px;
+        background-position-x: 0px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }

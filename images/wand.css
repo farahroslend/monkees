@@ -1,0 +1,152 @@
+body {
+
+    font-family: 'Prompt', sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+
+}
+
+.alert-container {}
+
+.callout-container {}
+
+
+
+
+
+
+/* Jumbotron 
+
+.jumbotron {
+    background-color: transparent;
+
+
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+}
+
+*/
+
+.music-container {
+    background-color: #FFF6C7;
+}
+
+.live-container {}
+
+.contact-container {}
+
+
+/* media queries */
+
+@media (min-width:0px) {
+    .callout-container {
+
+        width: 100vw;
+
+        background: url('../images/monkees_small.jpg') no-repeat center center fixed;
+        background-position-y: 56px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .jumbotron {
+        background-color: transparent;
+
+
+    }
+
+    .jumbotron h1 {
+        color: white;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: white;
+    }
+
+}
+
+@media (min-width: 1px) and (max-width: 1199px) {
+    .callout-container {
+        height: 100vh;
+
+        background: url('../images/monkees_small.jpg') no-repeat center center fixed;
+        background-position-y: 56px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .jumbotron {
+        background-color: transparent;
+
+
+    }
+
+    .jumbotron h1 {
+        color: white;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: white;
+    }
+}
+
+@media (min-width: 1200px) {
+    .callout-container {
+        height: 100vh;
+
+        background: url('../images/monkees4.jpg') no-repeat center center fixed;
+        background-position-y: 56px;
+        background-position-x: 350px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+    }
+
+    .callout-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        height: 100%;
+        width: 100%;
+        background-color: #99C6C0;
+
+    }
+
+    .jumbotron {
+        background-color: transparent;
+
+
+    }
+
+    .jumbotron h1 {
+        color: white;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: white;
+    }
+}

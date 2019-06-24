@@ -41,38 +41,42 @@ body {
 .contact-container {}
 
 /* Style all font awesome icons */
+
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 60px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
 }
 
 /* Add a hover effect if you want */
+
 .fa:hover {
-  opacity: 0.7;
+    opacity: 0.7;
 }
 
 /* Set a specific color for each brand */
 
 /* Facebook */
+
 .fa-facebook {
-  background: #3B5998;
-  color: white;
+    background: #3B5998;
+    color: white;
 }
 
 /* Twitter */
+
 .fa-twitter {
-  background: #55ACEE;
-  color: white;
+    background: #55ACEE;
+    color: white;
 }
 
 .fa-youtube {
-  background: #bb0000;
-  color: white;
+    background: #bb0000;
+    color: white;
 }
 
 /* media queries */
@@ -122,6 +126,14 @@ body {
         align-items: center;
         justify-content: center;
 
+    }
+
+    .spotify-widget-1 {
+        text-align: center;
+    }
+
+    .spotify-widget-2 {
+        text-align: center;
     }
 }
 
@@ -176,11 +188,19 @@ body {
         align-items: center;
         justify-content: center;
     }
+
+    .spotify-widget-1 {
+        text-align: center;
+    }
+
+    .spotify-widget-2 {
+        text-align: center;
+    }
 }
 
 @media (min-width: 1200px) {
     .callout-container {
-        
+
         height: 100vh;
         width: 100vw;
         background: url('../images/monkees-side.jpeg') no-repeat center center fixed;
@@ -262,5 +282,31 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .spotify-widget-1 {
+        text-align: right;
+    }
+
+    .spotify-widget-2 {
+        text-align: left;
+    }
+
+    .phoenix-live {
+        margin: 0;
+        height: 100vh;
+        width: 100vw;
+
+
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
     }
 }

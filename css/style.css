@@ -49,7 +49,7 @@ body {
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-    border-radius: 50%;
+    border-radius: 70%;
 }
 
 /* Add a hover effect if you want */
@@ -202,7 +202,7 @@ body {
     .callout-container {
 
         height: 100vh;
-        width: 100vw;
+        width: 100%;
         background: url('../images/monkees-side.jpeg') no-repeat center center fixed;
         background-position-y: 56px;
         background-position-x: 0px;
@@ -294,7 +294,7 @@ body {
 
     .phoenix-live {
         margin: 0;
-        height: 100vh;
+        height: 70vh;
         width: 100vw;
 
 

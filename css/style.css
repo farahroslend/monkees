@@ -42,32 +42,15 @@ body {
 
 /* Style all font awesome icons */
 
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 60px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 70%;
-}
-
-/* Add a hover effect if you want */
-
-.fa:hover {
-    opacity: 0.7;
-}
-
 /* Set a specific color for each brand */
 
 /* Facebook */
 
-.fa-facebook {
+/*.fa-facebook {
     background: #3B5998;
     color: white;
 }
 
-/* Twitter */
 
 .fa-twitter {
     background: #55ACEE;
@@ -77,7 +60,47 @@ body {
 .fa-youtube {
     background: #bb0000;
     color: white;
+} . */
+
+body {
+    text-align: center;
 }
+
+.wrapper {
+   
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+
+}
+
+.wrapper i {
+    padding: 10px;
+    text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
+    transition: all ease-in-out 150ms;
+}
+
+.wrapper a:nth-child(1) {
+    color: #4867AA;
+}
+
+.wrapper a:nth-child(2) {
+    color:#ffff;
+}
+
+.wrapper a:nth-child(3) {
+    color: #c8232c;
+}
+
+.wrapper a:nth-child(4) {
+    color: #1DA1F2;
+}
+
+.wrapper i:hover {
+    margin-top: -3px;
+    text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+}
+
 
 /* media queries */
 
@@ -199,11 +222,20 @@ body {
 }
 
 @media (min-width: 1200px) {
+
+    h1 {
+        color: black;
+        -webkit-text-fill-color: white;
+        /* Will override color (regardless of order) */
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+    }
+
     .callout-container {
 
         height: 100vh;
         width: 100%;
-        background: url('../images/monkees-side.jpeg') no-repeat center center fixed;
+        background: url('../images/MonkeesSignedPhotos_Heritage.jpg') no-repeat center center fixed;
         background-position-y: 56px;
         background-position-x: 0px;
         -webkit-background-size: cover;
@@ -230,6 +262,7 @@ body {
     }*/
     .jumbotron {
         background-color: rgba(255, 255, 255, 0.4);
+        width: 600px;
 
 
     }
@@ -242,8 +275,10 @@ body {
     }
 
     .music-container {
+        height: 100vh;
+        width: 100vw;
         background-color: #FFF6C7;
-        background: url('../images/flowers.png') repeat left center fixed;
+        background: url('../images/flowers.png') repeat left center scroll;
         background-color: rgba(0, 0, 0, 0.5);
         display: flex;
         align-items: center;
@@ -252,9 +287,9 @@ body {
 
     .live-container {
 
-        height: 70vh;
+        height: 100vh;
         width: 100vw;
-        background: url('../images/Live.jpg') no-repeat center center fixed;
+        background: url('../images/monkeesLive.jpg') no-repeat center center fixed;
         background-position-y: 0px;
         background-position-x: 0px;
         -webkit-background-size: cover;
@@ -271,17 +306,21 @@ body {
 
         height: 100vh;
         width: 100vw;
-        background: url('../images/contactus.png') no-repeat center center fixed;
-        background-position-y: -380px;
+        background: url('../images/contactusyo.jpg') no-repeat center center scroll;
+        background-position-y: 0px;
         background-position-x: 0px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-
+        
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .contact {
+        top: 0px;
     }
 
     .spotify-widget-1 {

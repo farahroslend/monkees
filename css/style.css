@@ -1,3 +1,5 @@
+/* landing page ------------------------------------------------------------*/
+
 body {
 
     font-family: 'Prompt', sans-serif;
@@ -13,10 +15,6 @@ body {
 .alert-container {}
 
 .callout-container {}
-
-
-
-
 
 
 /* Jumbotron 
@@ -51,7 +49,6 @@ body {
     color: white;
 }
 
-
 .fa-twitter {
     background: #55ACEE;
     color: white;
@@ -67,7 +64,7 @@ body {
 }
 
 .wrapper {
-   
+
     justify-content: center;
     align-items: center;
     height: 150px;
@@ -85,7 +82,7 @@ body {
 }
 
 .wrapper a:nth-child(2) {
-    color:#ffff;
+    color: #ffff;
 }
 
 .wrapper a:nth-child(3) {
@@ -101,17 +98,123 @@ body {
     text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
 }
 
+h1 {
+    color: black;
+    -webkit-text-fill-color: white;
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.callout-container {
+
+    height: 100vh;
+    width: 100%;
+    background: url('../images/MonkeesSignedPhotos_Heritage.jpg') no-repeat center center fixed;
+    background-position-y: 56px;
+    background-position-x: 0px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+/*.callout-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        height: 100%;
+        width: 100%;
+        background-color: #99C6C0;
+
+    }*/
+
+.jumbotron {
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 600px;
+
+
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.music-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFF6C7;
+    background: url('../images/flowers.png') repeat left center scroll;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.live-container {
+
+    height: 100vh;
+    width: 100vw;
+    background: url('../images/monkeesLive.jpg') no-repeat center center fixed;
+    background-position-y: 0px;
+    background-position-x: 0px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container {
+
+    height: 100vh;
+    width: 100vw;
+    background: url('../images/contactusyo.jpg') no-repeat center center scroll;
+    background-position-y: 0px;
+    background-position-x: 0px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* landing page ------------------------------------------------------------*/
 
 /* media queries */
 
 @media (max-width:499px) {
-    .callout-container {
 
-        height: 100vh;
+    /* landing page ------------------------------------------------------------*/
+    .navbar {
         width: 100vw;
-        background: url('../images/monkees4.jpg') no-repeat left center fixed;
-        background-position-y: 56px;
-        background-position-x: -213px;
+        position: fixed;
+        z-index: 1;
+
+    }
+
+    .callout-container {
+        height: 100vh;
+        width: 100%;
+        background: url('../images/monkeesiPhone3.png') no-repeat fixed;
+        background-position-y: 60px;
+        background-position-x: -110px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -123,63 +226,6 @@ body {
     }
     .jumbotron {
         background-color: transparent;
-
-    }
-
-    .jumbotron h1 {
-        color: white;
-        font-weight: bold;
-        margin-bottom: 10px;
-        color: white;
-    }
-
-    .live-container {
-
-        height: 100vh;
-        width: 100vw;
-        background: url('../images/monkees_green.jpg') no-repeat left center fixed;
-        background-position-y: 0px;
-        background-position-x: 0px;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-    }
-
-    .spotify-widget-1 {
-        text-align: center;
-    }
-
-    .spotify-widget-2 {
-        text-align: center;
-    }
-}
-
-@media (min-width: 500px) and (max-width: 1199px) {
-    .callout-container {
-        height: 100vh;
-        width: 100vw;
-        background: url('../images/monkees4.jpg') no-repeat left center fixed;
-        background-position-y: 56px;
-        background-position-x: -305px;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .jumbotron {
-        background-color: transparent;
-
-
     }
 
     .jumbotron h1 {
@@ -193,13 +239,149 @@ body {
         background-color: #FFF6C7;
         background: url('../images/flowers.png') repeat left center fixed;
         background-color: rgba(255, 255, 255, 0.5);
+        height: 100%;
+        width: 100vw;
     }
 
     .live-container {
 
+        height: 100%;
+        width: 100vw;
+        background: url('') no-repeat left center fixed;
+        background-position-y: 0px;
+        background-position-x: 0px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        border-style: solid;
+
+    }
+
+    .wrapper {
+
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+
+    }
+
+    .wrapper i {
+        padding: 10px;
+        text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
+        transition: all ease-in-out 150ms;
+    }
+
+    .wrapper a:nth-child(1) {
+        color: #4867AA;
+    }
+
+    .wrapper a:nth-child(2) {
+        color: #ffff;
+    }
+
+    .wrapper a:nth-child(3) {
+        color: #c8232c;
+    }
+
+    .wrapper a:nth-child(4) {
+        color: #1DA1F2;
+    }
+
+    .wrapper i:hover {
+        margin-top: -3px;
+        text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+    }
+    
+    .contact-container {
+
         height: 100vh;
         width: 100vw;
-        background: url('../images/monkees_green.jpg') no-repeat left center fixed;
+        background: url('../images/contactusyo.jpg') no-repeat center center scroll;
+        background-position-y: 0px;
+        background-position-x: -700px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /* landing page ------------------------------------------------------------*/
+    .spotify-widget-1 {
+        text-align: center;
+    }
+
+    .spotify-widget-2 {
+        text-align: center;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 1199px) {
+    /* landing page ------------------------------------------------------------*/
+    .callout-container {
+        height: 100vh;
+        width: 100vw;
+        background: url('../images/ipadMonkees.jpg') no-repeat center center fixed;
+        background-position-y: 40px;
+        background-position-x: -20px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .jumbotron {
+        background-color: transparent;
+    }
+
+    .jumbotron h1 {
+        color: white;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    .music-container {
+        background-color: #FFF6C7;
+        background: url('../images/flowers.png') repeat left center fixed;
+        background-color: rgba(255, 255, 255, 0.5);
+        height: 60vh;
+        width: 100vw;
+    }
+
+    .live-container {
+
+        height: 40vh;
+        width: 100vw;
+        background: url('../images/monkeesLive.jpg') no-repeat left center fixed;
+        background-position-y: 100px;
+        background-position-x: -35px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-container {
+
+        height: 20vh;
+        width: 100vw;
+        background: url('') no-repeat center center scroll;
         background-position-y: 0px;
         background-position-x: 0px;
         -webkit-background-size: cover;
@@ -212,6 +394,14 @@ body {
         justify-content: center;
     }
 
+    .touchLP {
+        color: black;
+        -webkit-text-fill-color: white;
+        /* Will override color (regardless of order) */
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: black;
+    }
+    /* landing page ------------------------------------------------------------*/
     .spotify-widget-1 {
         text-align: center;
     }
@@ -313,7 +503,7 @@ body {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        
+
         display: flex;
         align-items: center;
         justify-content: center;

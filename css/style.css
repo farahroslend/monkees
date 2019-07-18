@@ -102,7 +102,7 @@ h1 {
     color: black;
     -webkit-text-fill-color: white;
     /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
 }
 
@@ -225,14 +225,14 @@ h1 {
         justify-content: center;
     }
     .jumbotron {
-        width:175px;
+        width: 175px;
     }
 
     h1 {
         color: white;
         font-weight: bold;
         margin-bottom: 10px;
-        
+
     }
 
     .music-container {
@@ -258,7 +258,7 @@ h1 {
         display: flex;
         align-items: center;
         justify-content: center;
-        
+
         border-style: solid;
 
     }
@@ -297,7 +297,7 @@ h1 {
         margin-top: -3px;
         text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
     }
-    
+
     .contact-container {
 
         height: 100vh;
@@ -317,10 +317,12 @@ h1 {
     /* landing page ------------------------------------------------------------*/
     .spotify-widget-1 {
         text-align: center;
+        margin: 0 0;
     }
 
     .spotify-widget-2 {
         text-align: center;
+        margin: 0 0;
     }
 }
 
@@ -404,10 +406,15 @@ h1 {
     /* landing page ------------------------------------------------------------*/
     .spotify-widget-1 {
         text-align: center;
+        width: 500px;
+        margin: 0 0;
+
     }
 
     .spotify-widget-2 {
         text-align: center;
+        width: 500px;
+        margin: 0 0;
     }
 }
 
@@ -514,17 +521,23 @@ h1 {
     }
 
     .spotify-widget-1 {
-        text-align: right;
+        text-align: center;
+        width: 600px;
+        margin: 0 0;
+
     }
 
     .spotify-widget-2 {
-        text-align: left;
+        text-align: center;
+        width: 600px;
+        margin: 0 0;
     }
 
     .phoenix-live {
         margin: 0;
         height: 70vh;
         width: 100vw;
+        margin: 0 0;
 
 
         -webkit-background-size: cover;

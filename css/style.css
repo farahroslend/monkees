@@ -197,6 +197,22 @@ h1 {
 
 /* landing page ------------------------------------------------------------*/
 
+.musicpage-container {
+    position: relative;
+    z-index: -1;
+}
+
+.musicpage-background {
+    position: absolute;
+    background-color: #FFF6C7;
+    width: 100%;
+    height: 100%;
+    background: url('../images/piano.png') repeat left center scroll;
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 0.7;
+    z-index: -2;
+}
+
 /* media queries */
 
 @media (max-width:499px) {
@@ -315,6 +331,10 @@ h1 {
         justify-content: center;
     }
     /* landing page ------------------------------------------------------------*/
+    
+
+    
+    /* music page ------------------------------------------------------------*/
     .spotify-widget-1 {
         text-align: center;
         margin: 0 0;
@@ -324,6 +344,8 @@ h1 {
         text-align: center;
         margin: 0 0;
     }
+
+    /* music page ------------------------------------------------------------*/
 }
 
 @media (min-width: 500px) and (max-width: 1199px) {
@@ -404,6 +426,17 @@ h1 {
         -webkit-text-stroke-color: black;
     }
     /* landing page ------------------------------------------------------------*/
+    
+    /* about page ------------------------------------------------------------*/
+    .mr-3 .ml-3 {
+        width: 100vw;
+    }
+    .card-img-top {
+        height: 50vh;
+    }
+    /* about page ------------------------------------------------------------*/
+    
+    /* music page ------------------------------------------------------------*/
     .spotify-widget-1 {
         text-align: center;
         width: 500px;
@@ -519,7 +552,18 @@ h1 {
     .contact {
         top: 0px;
     }
-
+    /* landing page ------------------------------------------------------------*/
+    
+    /* about page ------------------------------------------------------------*/
+    .mr-3 .ml-3 {
+        width: 100vw;
+    }
+    .card-img-top {
+        height: 93vh;
+    }
+    /* about page ------------------------------------------------------------*/
+    
+    /* music page ------------------------------------------------------------*/
     .spotify-widget-1 {
         text-align: center;
         width: 600px;
@@ -532,7 +576,7 @@ h1 {
         width: 600px;
         margin: 0 0;
     }
-
+    /* music page ------------------------------------------------------------*/
     .phoenix-live {
         margin: 0;
         height: 70vh;

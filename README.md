@@ -67,15 +67,24 @@ Explain how to run the automated tests for this system
 
 Explain what these tests test and why
 
-```
-Give an example
-```
+### Responsive Design
+The website was tested using the Chrome browser developer tool, and verified to be responsive to the following device resolutions:
+#### Desktops
+For devices with a large screen width above 1200px
+
+#### Tablets
+iPad, iPadPro
+
+#### Mobile devices
+Galaxy S5, Pixel 2, Pixel 2 XL, iPhone5/SE, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhoneX
+
 
 ## Deployment
-This project was created using the AWS Cloud 9 integrated development environment (IDE). The repository for this website can be found at:
+This project was created using the [AWS Cloud 9](https://aws.amazon.com/cloud9/) integrated development environment (IDE). Version control and deployment was entirely done using GitHub. 
 
+* The repository for this website can be found at: https://github.com/farahroslend/monkees.git
 
-The deployed site can be accessed from the following link:
+* The deployed site can be viewed and experienced from the following link: https://farahroslend.github.io/monkees/
 
 
 ## Credits

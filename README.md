@@ -61,11 +61,46 @@ The font used for the texts in this website is a block-text, that further custom
 
 ## Technologies Used
 
-Explain how to run the automated tests for this system
+ * [HTML5](https://en.wikipedia.org/wiki/HTML5): Mark-up used language for website design.
+ * [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets): Stylesheet language used to create the presentation of the website.
+ * [JavaScript](https://www.javascript.com/): Links attached to allow for dropdown button to work.
+ * [BootStrap](https://getbootstrap.com/): Used for the responsive layout, buttons, tables, card holder of the website.
+ * [GoogleFonts](https://fonts.google.com/): For text styling.
+ * [Strokes to Web Texts](https://css-tricks.com/adding-stroke-to-web-text/): To make the white texts pop out more.
+ * [Spotify widget](https://developer.spotify.com/documentation/widgets/): To insert spotify playlists and a follow button.
+ 
 
 ## Testing
 
-Explain what these tests test and why
+* Navigation Bar Links 
+  1. Clicking on the guitar icon button of the 'Home' hyperlink will lead the user to the home page.
+  2. Hovering on either the 'About', 'Gigs', 'Music' and 'Updates' hyperlink will turn the block texts darker and click each will send the user to the relevant pages respectively.
+  3. Navigation bar is always available, standardised in style and functional across all of the pages.
+ 
+ * Inquiry Form
+  1. Go to the "Gigs" page.
+  2. Leaving either, or all, of the name, telephone, email address or field (s) will not send the form and a prompt to fill in the empty field(s) will be issued.
+  3. Incorrect email 'nomenclature' will not send the form, and user will be asked to key in a valid email address.
+  4. When all the fields are correctly fill, the submit button will work and link to a (yet to be designed) thank you page and a return to landing page link.
+  
+ * Music Playlist
+  1. Go to the "Music" page.
+  2. User can click on the play button and the music will be played for a brief period of about 30 seconds for preview purposes.
+  3. Clicking on the other songs from either of these 2 Spotify widgets repeats the result from 2.
+  
+
+ * Social Media Links 
+  1. At the landing page, hovering across the social media icons will cast a shadow.
+  2. Clicking on either of the icons will open a new tab to the correct and relevant social media page.
+ 
+ * Table of Schedule
+ Cells will be highlighted for easy reading when the cursor is hovered across it.
+
+ The website has been tested with these browsers: Google, Safari, Mozilla Firefox, Internet Explorer.
+ 
+ The website has been Validated using:
+ * [HTML Validation](https://validator.w3.org/): No Errors or warnings found.
+ * [CSS Validation](https://jigsaw.w3.org/css-validator/): No Errors found.
 
 ### Responsive Design
 The website was tested using the Chrome browser developer tool, and verified to be responsive to the following device resolutions:
@@ -84,45 +119,25 @@ This project was created using the [AWS Cloud 9](https://aws.amazon.com/cloud9/)
 
 * The repository for this website can be found at: https://github.com/farahroslend/monkees.git
 
-* The deployed site can be viewed and experienced from the following link: https://farahroslend.github.io/monkees/
+* The deployed site can be experienced from the following link: https://farahroslend.github.io/monkees/
 
 
 ## Credits
 ### Content
+ * Fonts, text-styling: [GoogleFonts](https://fonts.google.com/), [Strokes to Web Texts](https://css-tricks.com/adding-stroke-to-web-text/)
+ 
+ * The 'About Us' page contents were taken from: [Wikipedia](https://en.wikipedia.org/wiki/Main_Page)
+ 
 
 ### Media
+* Videos and playlists were sourced from: [Youtube](https://www.youtube.com/), [Spotify](https://www.spotify.com/my-en/)
+* Pictures: [Pinterest](https://www.pinterest.com/)
 
 ### Acknowledgement
+Many thanks to the tutor from Code Institute's videos, for I learned a lot about website design and prototyping by observing how he did so when designing the 'Whiskey Drop' Website. My gratitude is also extended to Anna for her inputs from Slack, and my mentor Mark Railton for his feedback. 
 
 ## Author
-* **Farah Roslend** - *An academic coursework for Code Institute* - [PurpleBooth](https://github.com/PurpleBooth)
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## ContributThiing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* **Farah Roslend** - *Student of Code Institute from 2019 to 2020* 
 
 
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc

@@ -206,7 +206,7 @@ h1 {
 .musicpage-container {
     position: relative;
     z-index: 1;
-    height: 95vh;
+    
 }
 
 .musicpage-background {
@@ -505,7 +505,6 @@ h1 {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-
         display: flex;
         align-items: center;
         justify-content: center;
@@ -546,6 +545,9 @@ h1 {
         display: flex;
         align-items: center;
         justify-content: center;
+        -webkit-filter: grayscale(17%);
+        /* Safari 6.0 - 9.0 */
+        filter: grayscale(17%);
     }
 
     .live-container {
@@ -562,6 +564,9 @@ h1 {
         display: flex;
         align-items: center;
         justify-content: center;
+        -webkit-filter: grayscale(30%);
+        /* Safari 6.0 - 9.0 */
+        filter: grayscale(30%);
     }
 
     .contact-container {
@@ -578,7 +583,8 @@ h1 {
         display: flex;
         align-items: center;
         justify-content: center;
-        -webkit-filter: grayscale(70%); /* Safari 6.0 - 9.0 */
+        -webkit-filter: grayscale(70%);
+        /* Safari 6.0 - 9.0 */
         filter: grayscale(70%);
     }
 
@@ -615,6 +621,12 @@ h1 {
         width: 600px;
         margin: 0 0;
         z-index: 3;
+    }
+
+    .musicpage-container {
+        position: relative;
+        z-index: 1;
+        height: 95vh;
     }
     /* music page ------------------------------------------------------------*/
     /* gigs page ------------------------------------------------------------*/

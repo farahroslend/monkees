@@ -134,7 +134,7 @@ This project was created using the [AWS Cloud 9](https://aws.amazon.com/cloud9/)
 * Pictures: [Pinterest](https://www.pinterest.com/)
 
 ### Acknowledgement
-Many thanks to the tutor from Code Institute's videos, for I learned a lot about website design and prototyping by observing how he did so when designing the 'Whiskey Drop' Website. My gratitude is also extended to Anna for her inputs from Slack, and my mentor Mark Railton for his feedback. 
+Many thanks to the tutor from Code Institute's videos, for I learned a lot about website design and prototyping by observing how he did so when designing the 'Whiskey Drop' Website. My gratitude is also extended to Anna for her inputs from Slack, and especially to my mentor Narender Singh for his insightful feedback, and dedication to his students.  
 
 ## Author
 * **Farah Roslend** - *Student of Code Institute from 2019 to 2020* 

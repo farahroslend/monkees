@@ -206,6 +206,7 @@ h1 {
 .musicpage-container {
     position: relative;
     z-index: 1;
+    height: 95vh;
 }
 
 .musicpage-background {
@@ -558,7 +559,6 @@ h1 {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-
         display: flex;
         align-items: center;
         justify-content: center;
@@ -575,10 +575,11 @@ h1 {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-
         display: flex;
         align-items: center;
         justify-content: center;
+        -webkit-filter: grayscale(70%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(70%);
     }
 
     .contact {
@@ -596,8 +597,8 @@ h1 {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top:5px;
-        
+        margin-top: 5px;
+
     }
     /* about page ------------------------------------------------------------*/
     /* music page ------------------------------------------------------------*/
@@ -620,7 +621,7 @@ h1 {
     .phoenix-live {
         margin: 0;
         height: 70vh;
-        width: 100vw;
+        width: 80vw;
         margin: 0 0;
 
 
@@ -641,11 +642,10 @@ h1 {
         padding-right: 100px;
     }
 
-    .form-box {
+    /*.form-box {
         border-style: solid;
         margin-left: 100px;
         margin-right: 100px;
-    }
-
+    }*/
     /* gigs page ------------------------------------------------------------*/
 }

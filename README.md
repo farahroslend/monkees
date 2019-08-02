@@ -111,7 +111,7 @@ For devices with a large screen width above 1200px
 iPad, iPadPro
 
 #### Mobile devices
-Galaxy S5, Pixel 2, Pixel 2 XL, iPhone5/SE, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhoneX
+Galaxy S5, Pixel 2, Pixel 2 XL, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhoneX
 
 
 ## Deployment

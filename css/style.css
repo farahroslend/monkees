@@ -206,7 +206,7 @@ h1 {
 .musicpage-container {
     position: relative;
     z-index: 1;
-    
+
 }
 
 .musicpage-background {
@@ -381,6 +381,11 @@ h1 {
     }
 
     /* music page ------------------------------------------------------------*/
+    /* about page ------------------------------------------------------------*/
+    .about_desktop_only {
+        display: none;
+    }
+    /* about page ------------------------------------------------------------*/
 }
 
 @media (min-width: 500px) and (max-width: 1199px) {
@@ -467,6 +472,9 @@ h1 {
     }
     .card-img-top {
         height: 50vh;
+    }
+    .about_desktop_only {
+        display: none;
     }
     /* about page ------------------------------------------------------------*/
     /* music page ------------------------------------------------------------*/
@@ -605,6 +613,9 @@ h1 {
         margin-right: auto;
         margin-top: 5px;
 
+    }
+    .about_non_desktop {
+        display: none;
     }
     /* about page ------------------------------------------------------------*/
     /* music page ------------------------------------------------------------*/
